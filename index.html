@@ -272,13 +272,13 @@
     <h1>Attendance Calculator</h1>
     <div class="container">
         <label>Total Hours Held:</label>
-        <input type="number" id="totalClasses" placeholder="Enter total hours" min="0">
+        <input type="number" id="totalClasses" inputmode="numeric" placeholder="Enter total hours" min="0">
 
         <label>Hours Attended:</label>
-        <input type="number" id="attendedClasses" placeholder="Enter attended hours" min="0">
+        <input type="number" id="attendedClasses" inputmode="numeric" placeholder="Enter attended hours" min="0">
 
         <label>Minimum Attendance %:</label>
-        <input type="number" id="criteria" placeholder="Enter minimum percentage" min="0" max="100" value="75">
+        <input type="number" id="criteria" inputmode="numeric" placeholder="Enter minimum percentage" min="0" max="100" value="75">
 
         <div class="button-group">
             <button onclick="calculateAttendance()">Calculate</button>
